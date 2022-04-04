@@ -1,0 +1,52 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    
+    min-width: 270px;
+    font-size: 18px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    max-width: 300px;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+    height: auto;
+}
+
+.todo .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-height: 30px;
+    
+}
+
+/* .todo .text span {} */
+
+.todo .Btn {
+    min-width: 110px;
+}
+
+.todo button {
+    padding: 0;
+    border: 1px solid rgb(141, 254, 34);
+    border-radius: 4px;
+    font: inherit;
+    color: inherit;
+    background-color: rgb(241, 240, 240);
+    cursor: pointer;
+}
+
+.todo .completeBtn {
+    margin: 0px 7px;
+    padding: 0px 5px;
+}
+
+.todo .removeBtn {
+
+    min-width: 20px;
+}

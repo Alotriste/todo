@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app {
+    background: #aadcfe;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .todo-list {
+    background: #c6ffbb;
+    border-radius: 6px;
+    
+    padding: 5px;
+  }
+  .todo-list .title{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    background-color: rgb(127, 255, 129);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(127, 255, 129);;
+  }
